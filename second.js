@@ -47,7 +47,7 @@ document.getElementById('withdraw-btn').addEventListener('click', function () {
 
     // validation and reset withdraw input or withdraw amount
     withdrawInput.value = '';
-    if (isNaN(totalWithdrawAmount)) {
+    if (isNaN(totalWithdrawAmount) || totalWithdrawAmount <= 0) {
         return alert('Please enter an amount');
     }
 
