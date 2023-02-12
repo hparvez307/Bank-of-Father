@@ -6,7 +6,7 @@ document.getElementById('btn-submit').addEventListener('click', function () {
     const password = passInput.value;
 
     if (email === 'hparvez307@gmail.com' && password === 'parvez600697') {
-        window.location.href = 'http://127.0.0.1:5500/bank.html';
+        location.href = 'http://127.0.0.1:5500/bank.html';
     }
     else if (email !== 'hparvez307@gmail.com' && password !== 'parvez600697') {
         alert('Incorrect info');
